@@ -1,0 +1,61 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  box-shadow: 0px 2px 0px #e1d9ef;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.logo h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.logo span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff613f;
+}
+.navContent {
+  display: flex;
+  gap: 32px;
+}
+.navContent p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.navWatch {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.navWatch span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.watchIcon {
+  width: 54px;
+  height: 36px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
