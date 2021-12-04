@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="maxWidthHold heroSectionContent">
         <div className="heroSectionTitle">
           <h1>Better Future For Your Kids</h1>
-          <p>Let the child be the director, and the actor in their own pray</p>
+          <p>Let the child be the director, and the actor in their own play</p>
         </div>
         <div className="heroCTA">
           <span>Get Started</span>

@@ -27,12 +27,14 @@
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
+  font-family: "Poppins";
   line-height: 150%;
   color: #160041;
 }
 .heroSectionTitle p {
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
+  font-family: "Poppins";
   font-size: 1.2rem;
   line-height: 150%;
   color: #160041;
@@ -52,7 +54,8 @@
 .heroCTA span {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
+  font-family: "Poppins";
   line-height: 150%;
   letter-spacing: 0.03em;
   color: #ffffff;
