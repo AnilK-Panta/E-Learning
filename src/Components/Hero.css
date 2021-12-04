@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.heroSection {
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.heroSectionContent {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.heroSectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  gap: 8px;
+  height: fit-content;
+}
+.heroSectionTitle h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 150%;
+  color: #160041;
+}
+.heroSectionTitle p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 150%;
+  color: #160041;
+}
+.heroCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background: #703edb;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.34);
+  border-radius: 57px;
+  gap: 15px;
+  width: fit-content;
+}
+.heroCTA span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.CTAbtn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff7f56;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+#contentSvg {
+  margin-top: 5rem;
+}
