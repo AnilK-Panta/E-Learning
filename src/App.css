@@ -11,3 +11,7 @@
 .maxWidthHold {
   width: 1100px;
 }
+.classTypeButton {
+  display: flex;
+  justify-content: space-between;
+}

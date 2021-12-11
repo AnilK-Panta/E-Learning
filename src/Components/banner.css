@@ -1,0 +1,42 @@
+.bannerWrap {
+  /* width: 100%; */
+  padding-top: 100px;
+  padding-right: 76px;
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+}
+.teachingKidsWrap {
+  background: #ffffff;
+  box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 1.5rem;
+
+  z-index: 5;
+}
+.teachingKids {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.teachingKids .teachingImg {
+  width: 100%;
+  border-radius: 20px;
+}
+.kidImgWrap {
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  bottom: 20px;
+  border-radius: 10px;
+}
+.littleKid {
+  width: 145px;
+  height: 190px;
+  /* background-color: tomato; */
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}

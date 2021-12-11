@@ -1,0 +1,24 @@
+.titleStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.titleStyle h1 {
+  max-width: 500px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 55px;
+  text-align: center;
+  color: #0a033c;
+}
+.titleStyle p {
+  max-width: 700px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: center;
+  color: #5d5a6f;
+}

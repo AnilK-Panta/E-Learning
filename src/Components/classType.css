@@ -1,0 +1,16 @@
+.classTypeBtnWrap {
+  padding: 15px;
+  padding-right: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.classTypeBtnWrap span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 25px;
+  color: #0a033c;
+}
