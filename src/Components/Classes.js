@@ -1,10 +1,10 @@
+import { useState } from "react";
 import Banner from "./Banner";
 import ClassType from "./ClassType";
 import Title from "./Title";
-// import Audio from "./Components/Audio";
-// import Recorded from "./Components/Recorded";
-import Live from "./Live";
+import { classTypes } from "../api/classTypes";
 export default function Classes() {
+  const [state, setstate] = useState(classTypes);
   return (
     <>
       <Title />
@@ -13,9 +13,11 @@ export default function Classes() {
         className="classTypeButton maxWidthHold"
         style={{ marginTop: "40px" }}
       >
-        <ClassType ClassIcon={Live} className="Audio Class" />
-        <ClassType className="Live Class" />
-        <ClassType className="Recorded Class" />
+        {state.map((curElem) => {
+          return (
+            <ClassType test={<curElem.type />} clasName={curElem.typeName} />
+          );
+        })}
       </div>
     </>
   );

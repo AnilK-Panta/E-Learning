@@ -1,11 +1,11 @@
-import LessonCard from "./LessonCard";
+import ClassWrap from "./ClassWrap";
 import Title from "./Title";
 
 export default function Lessons() {
   return (
     <div className="maxWidthHold">
       <Title />
-      <LessonCard />
+      <ClassWrap />
     </div>
   );
 }
