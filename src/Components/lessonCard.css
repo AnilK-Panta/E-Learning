@@ -1,0 +1,39 @@
+.lessonCardWrap {
+  padding: 1.9rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.lessonOne {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffb54a;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lessonCardWrap h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 25px;
+  text-align: center;
+  color: #0a033c;
+}
+.lessonCardWrap p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: center;
+  color: #5d5a6f;
+  max-width: 250px;
+}
