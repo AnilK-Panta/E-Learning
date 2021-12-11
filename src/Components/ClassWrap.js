@@ -4,7 +4,6 @@ import { classesDetail } from "../api/classesDetails";
 
 export default function ClassWrap(props) {
   const [state, setstate] = useState(classesDetail);
-  console.log(state);
   return (
     <div
       style={{
@@ -18,6 +17,7 @@ export default function ClassWrap(props) {
       {state.map((curElem) => {
         return (
           <LessonCard
+            bgColor={curElem.color}
             class={curElem.id}
             standsrd={curElem.standard}
             standardDetail={curElem.detail}

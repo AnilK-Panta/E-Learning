@@ -1,7 +1,14 @@
 import "./plusSvg.css";
-export default function PlusSvg() {
+export default function PlusSvg(props) {
   return (
-    <div className="plusSvgWrap">
+    <div
+      className="plusSvgWrap"
+      style={{
+        right: `${props.right}`,
+        top: `${props.top}`,
+        zIndex: `${props.index}`,
+      }}
+    >
       <svg
         width="180"
         height="185"
