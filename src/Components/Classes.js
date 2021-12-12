@@ -4,7 +4,7 @@ import ClassType from "./ClassType";
 import Title from "./Title";
 import { classTypes } from "../api/classTypes";
 export default function Classes() {
-  const [state, setstate] = useState(classTypes);
+  const [state] = useState(classTypes);
   return (
     <>
       <Title />

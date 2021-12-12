@@ -81,6 +81,7 @@ export default function JoinCourse() {
         ></img>
         <img
           src="./image/tech1.png"
+          alt="alt"
           style={{
             position: "absolute",
             top: "22%",
@@ -89,6 +90,7 @@ export default function JoinCourse() {
         ></img>
         <img
           src="./image/tech2.png"
+          alt="alt"
           style={{
             position: "absolute",
             top: "22%",
@@ -97,6 +99,7 @@ export default function JoinCourse() {
         ></img>
         <img
           src="./image/tech3.png"
+          alt="alt"
           style={{
             position: "absolute",
             top: "0",

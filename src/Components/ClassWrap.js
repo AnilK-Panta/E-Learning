@@ -3,7 +3,7 @@ import LessonCard from "./LessonCard";
 import { classesDetail } from "../api/classesDetails";
 
 export default function ClassWrap(props) {
-  const [state, setstate] = useState(classesDetail);
+  const [state] = useState(classesDetail);
   return (
     <div
       style={{
