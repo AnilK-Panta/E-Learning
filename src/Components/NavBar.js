@@ -1,18 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <div className="maxWidthHold navBar">
-      <div className="logo">
-        <h1>ELearn</h1>
-        <span></span>
-      </div>
+      <Link
+        to="/"
+        style={{
+          textDecoration: "none",
+        }}
+      >
+        <div className="logo">
+          <h1>ELearn</h1>
+          <span></span>
+        </div>
+      </Link>
       <div className="navContent">
         <p>About Us</p>
         <p>Programs</p>
         <p>Pricing</p>
-        <p>Instructor</p>
+        <Link
+          to="/mentors"
+          style={{
+            textDecoration: "none",
+          }}
+        >
+          <p>Mentors</p>
+        </Link>
+
         <p>Blogs</p>
       </div>
       <div className="navWatch">

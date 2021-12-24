@@ -1,22 +1,21 @@
 import "./App.css";
-
-import Hero from "./Components/Hero";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 
-import Classes from "./Components/Classes";
-import Lessons from "./Components/Lessons";
-import JoinCourse from "./Components/JoinCourse";
 import NewsLetter from "./Components/NewsLetter";
 import Footer from "./Components/Footer";
+import HomePage from "./Components/HomePage";
+import Mentors from "./Components/Mentors";
 
 function App(props) {
   return (
     <div className="App">
       <NavBar />
-      <Hero />
-      <Classes />
-      <Lessons />
-      <JoinCourse />
+      <Routes>
+        <Route exact path="/" element={<HomePage />}></Route>
+        <Route exact path="/mentors" element={<Mentors />}></Route>
+      </Routes>
+
       <NewsLetter />
       <Footer />
     </div>
