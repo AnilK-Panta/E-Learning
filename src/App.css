@@ -16,3 +16,18 @@
   /* justify-content: space-between; */
   gap: 2rem;
 }
+.footerList {
+  color: #0a033c;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.footerList li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0.8em;
+  color: #5d5a6f;
+}
+input::placeholder {
+  color: white;
+}
