@@ -6,6 +6,8 @@ import NavBar from "./Components/NavBar";
 import Classes from "./Components/Classes";
 import Lessons from "./Components/Lessons";
 import JoinCourse from "./Components/JoinCourse";
+import NewsLetter from "./Components/NewsLetter";
+import Footer from "./Components/Footer";
 
 function App(props) {
   return (
@@ -15,6 +17,8 @@ function App(props) {
       <Classes />
       <Lessons />
       <JoinCourse />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }
