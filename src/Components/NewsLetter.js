@@ -15,7 +15,7 @@ export default function NewsLetter() {
     >
       <img
         src="./image/letterImg1.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           left: "50px",
@@ -24,7 +24,7 @@ export default function NewsLetter() {
       />
       <img
         src="./image/letterImg2.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           left: "150px",
@@ -34,7 +34,7 @@ export default function NewsLetter() {
       />
       <img
         src="./image/letterImg3.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           left: "50px",
@@ -89,7 +89,7 @@ export default function NewsLetter() {
       </form>
       <img
         src="./image/letterImg4.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           right: "50px",
@@ -98,7 +98,7 @@ export default function NewsLetter() {
       />
       <img
         src="./image/letterImg5.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           right: "150px",
@@ -108,7 +108,7 @@ export default function NewsLetter() {
       />
       <img
         src="./image/letterImg6.png"
-        alt="letter image"
+        alt="letter"
         style={{
           position: "absolute",
           right: "50px",
