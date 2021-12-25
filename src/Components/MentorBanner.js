@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MentorSvg from "./MentorSvg";
 
 export default function MentorBanner() {
@@ -14,10 +15,19 @@ export default function MentorBanner() {
         style={{
           marginTop: "1.2em",
           marginLeft: "1.5em",
-          color: "rgba(10, 3, 60, 0.8)",
+          color: "rgba(10, 3, 60, 0.6)",
         }}
       >
-        Home / Our Mentors
+        <Link
+          to="/"
+          style={{
+            textDecoration: "none",
+            color: "rgba(10, 3, 60, 1)",
+          }}
+        >
+          Home{" "}
+        </Link>
+        / Our Mentors
       </span>
       <div
         style={{

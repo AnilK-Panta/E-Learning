@@ -11,7 +11,7 @@ export default function MentorCard() {
         flexDirection: "column",
         alignItems: "center",
         gap: "1em",
-        padding: "1em 0",
+        padding: "1em 0 2em 0",
       }}
     >
       <img

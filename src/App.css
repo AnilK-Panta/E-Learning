@@ -46,3 +46,12 @@ input::placeholder {
   background-color: #9c4de4 !important;
   color: white !important;
 }
+.mentorBtn:hover {
+  background: #ff6652;
+  box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+  color: white;
+}
+.classDetailBtn:hover {
+  background-color: #9c4df4;
+  color: white !important;
+}
